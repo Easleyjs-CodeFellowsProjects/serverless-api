@@ -5,7 +5,7 @@ const dynamoose = require('dynamoose');
 const comicsSchema = new dynamoose.Schema({
   id: Number,
   title: String,
-  value: Number,
+  bookValue: Number,
   rarity: String,
 });
 

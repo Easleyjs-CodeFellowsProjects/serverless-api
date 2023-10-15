@@ -8,7 +8,7 @@ describe('Testing the createComic lambda', () => {
     const mockEventObj = {
         'title': 'X-Force #2',
         'rarity': 'Common',
-        'value': '35'
+        'bookValue': '35'
     };
 
     let response = await handler(mockEventObj);

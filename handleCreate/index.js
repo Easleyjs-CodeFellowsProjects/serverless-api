@@ -13,7 +13,7 @@ exports.handler = async (event) => {
   const newComic = {
     'id' : chance.integer({ min: 20, max: 9999999 }),
     'title' : event.title,
-    'value' : parseInt(event.value), // maybe I don't have to use String now
+    'bookValue' : parseInt(event.bookValue),
     'rarity': event.rarity
   };
 
